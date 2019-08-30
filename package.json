@@ -1,0 +1,25 @@
+{
+    "name": "tzora-tpp",
+    "displayName": "tzora_tpp",
+    "description": "HighLight to T++ language.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "tpp",
+            "aliases": ["T++", "tpp"],
+            "extensions": [".tpp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "tpp",
+            "scopeName": "name.tpp",
+            "path": "./syntaxes/tpp.tmLanguage.json"
+        }]
+    }
+}
